@@ -25,6 +25,9 @@ RUN install_clean \
  && echo "source /etc/profile" >> /root/.bashrc
 ########################################
 
+
+RUN apt-get update; apt-get -y -f dist-upgrade
+
 ################ Services ##############
 ENV VNC_PASSWORD=123456 \
     VNC_PORT=5900
