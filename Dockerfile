@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     DISABLE_SSH=1 \
     DISABLE_CRON=1 \
     DISPLAY=:0 \
-    TZ=America/Argentina/Buenos_Aires
+    TZ=Europe/Berlin
 
 CMD ["/sbin/my_init"]
 
