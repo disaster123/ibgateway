@@ -58,7 +58,7 @@ COPY components/ibgateway/* /root/Jts/
 ENV IBC_PKG_URL="https://github.com/IbcAlpha/IBC/releases/download/3.18.0-Update.1/IBCLinux-3.18.0.zip" \ 
     IBC_INI=/root/IBC/config.ini \
     IBC_PATH=/opt/IBC \
-    TWS_MAJOR_VRSN=981 \
+    TWS_MAJOR_VRSN=1019 \
     TWS_PATH=/root/Jts \
     TWS_CONFIG_PATH=/root/Jts \
     LOG_PATH=/root/IBC/Logs \
